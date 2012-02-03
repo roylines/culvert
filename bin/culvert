@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var culvert = require('../lib/culvert');
+
