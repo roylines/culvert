@@ -21,6 +21,7 @@
 	"dependencies": {
     "async": "*.*.*",
     "github": "*.*.*",
+    "redis": "*.*.*",
     "restify": "*.*.*",
     "underscore": "*.*.*"
   },
