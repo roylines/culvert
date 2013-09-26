@@ -19,14 +19,13 @@
     "agile"
   ],
 	"dependencies": {
-    "async": "0.1.x",
+    "async": "*.*.*",
+    "github": "*.*.*",
+    "restify": "*.*.*",
+    "underscore": "*.*.*"
   },
   "devDependencies" : {
-  	"should" : "0.5.x",
-		"sinon" : "1.3.x",
-		"vows" : "0.6.x"
 	},
   "main": "./lib/culvert",
-  "scripts": { "test": "vows test/*-test.js --spec" },
   "engines": { "node": ">= 0.6.0" }
 }
